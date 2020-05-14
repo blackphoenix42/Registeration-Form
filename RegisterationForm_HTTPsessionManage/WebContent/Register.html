@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="/RegisterationForm_HTTPsessionManage/CSS/style.css" type="text/css">
+<link rel="stylesheet" href="/RegisterationForm_HTTPsessionManage/CSS/register.css" type="text/css">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="head">
+		<h1>Login App using HttpSession</h1>
+	</div>
+	<div class="links">
+		<a href="Register.html">Register</a> 
+		<a href="login.html">Login</a> 
+		<a href="LogoutServlet">Logout</a>
+		<a href="ProfileServlet">Profile</a>
+	</div>
+	<div class="forms">
+		<form action="RegisterServlet" method="post">
+			<label for="name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" id="name" name="name" placeholder="Your Full Name..."/><br> 
+			<label for="username">Username: </label><input	type="text" name="username" id="username" placeholder="Your Username..."/><br> 
+			<label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="email" name="email" id="email" placeholder="Your Email..."/><br> 
+			<label for="address">Address: &nbsp;&nbsp;</label><input type="text" name="address" id="address" placeholder="Your Address..."/><br>
+			<label for="pass">Password:  &nbsp;</label><input type="password" name="pass" id="pass" placeholder="Your Password..."/><br> 
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" value="Register!" />
+		</form>
+	</div>
+</body>
+</html>
